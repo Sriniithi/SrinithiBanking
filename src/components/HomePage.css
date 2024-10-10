@@ -1,0 +1,112 @@
+.home-page-container {
+    position: relative;
+    padding: 20px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ccc;
+}
+
+.left-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.right-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.nav-btn {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.nav-btn:hover {
+    background-color: #0056b3;
+}
+
+.home-page-content {
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+/* HomePage.css */
+
+.home-page-container {
+    background-image: url('Loans.jpg'); /* Specify the path to your image */
+    background-size: cover; /* Make sure the image covers the entire container */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 100vh; /* Ensure the background covers the full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    color: white; /* Text color contrast with the background */
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-buttons, .right-buttons {
+    display: flex;
+}
+
+.nav-btn {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for buttons */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-btn:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.home-page-content {
+    text-align: center;
+    padding-top: 100px; /* Adjust to center the content properly */
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+/* Add responsiveness */
+@media (max-width: 768px) {
+    .home-page-content {
+        padding-top: 50px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}

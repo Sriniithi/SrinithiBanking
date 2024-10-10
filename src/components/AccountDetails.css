@@ -1,0 +1,23 @@
+/* AccountDetails.css */
+
+.account-details-container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.account-details-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.account-details-table th, .account-details-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+.account-details-table th {
+    background-color: #f2f2f2;
+}

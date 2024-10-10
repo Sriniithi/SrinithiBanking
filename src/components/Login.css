@@ -1,0 +1,73 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensures the footer stays at the bottom */
+}
+
+.login-header {
+    background-color: #5c0082; /* Purple header */
+    color: white;
+    padding: 10px 20px;
+}
+
+.header-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-button {
+    margin-left: 10px;
+    padding: 10px 15px;
+    background-color: #ffcc00; /* Yellow buttons */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+.login-form-container {
+    padding: 20px;
+    background-color: #ffffff; /* White background for the form */
+    border-radius: 10px;
+    margin: 20px; /* Space around form */
+}
+
+.footer-container {
+    background-color: #5c0082; /* Purple background */
+    color: #ffffff; /* White text color */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px; /* Space inside footer */
+    margin-top: auto; /* Push footer to the bottom */
+}
+
+.footer-section {
+    flex: 1; /* Each section takes equal space */
+    margin: 10px; /* Space between sections */
+    min-width: 150px; /* Minimum width for each section */
+}
+
+.footer-section h3 {
+    color: #ffcc00; /* Yellow color for headings */
+}
+
+.footer-section ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+}
+
+.footer-section li {
+    margin: 5px 0; /* Space between list items */
+}
+
+.new-user-container {
+    margin-top: 10px; /* Space between form and new user link */
+}
+
+.register-link {
+    color: #5c0082; /* Link color */
+    cursor: pointer;
+    text-decoration: underline; /* Underline for links */
+}

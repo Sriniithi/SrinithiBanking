@@ -1,0 +1,42 @@
+.banking-payments-container {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center align the content */
+    padding: 20px;
+    width: 100%; /* Full width */
+}
+
+.banking-card {
+    background: linear-gradient(to right, #ffcc00, #FFBD33);
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 80%; /* Adjust width for more space */
+    max-width: 600px; /* Maximum width for larger screens */
+}
+
+.options-container {
+    display: flex;
+    flex-direction: column; /* Stack option cards vertically */
+    gap: 20px; /* Space between option cards */
+    width: 80%; /* Adjust width for more space */
+    max-width: 600px; /* Maximum width for larger screens */
+}
+
+.option-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+    cursor: pointer;
+}
+
+.option-card:hover {
+    background-color: #ffcc00; /* Change color on hover */
+    color: white; /* Change text color on hover */
+    transform: scale(1.05); /* Slightly increase size on hover */
+}

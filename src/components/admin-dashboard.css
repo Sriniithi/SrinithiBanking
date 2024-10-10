@@ -1,0 +1,123 @@
+.admin-dashboard-container {
+    padding: 20px;
+}
+
+.current-customer-section {
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.customer-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.customer-table th, .customer-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.customer-table th {
+    background-color: #f2f2f2;
+}
+
+button {
+    margin-right: 10px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.documents-section {
+    margin-top: 20px;
+}
+
+.documents-section a {
+    color: blue;
+    text-decoration: underline;
+}
+
+.documents-section p {
+    margin-bottom: 10px;
+}
+
+.admin-dashboard {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.customer-table {
+    margin-bottom: 20px;
+}
+
+.loan-table {
+    margin-bottom: 20px;
+}
+
+.button-section {
+    margin-bottom: 20px;
+}
+
+.button-section button {
+    margin-right: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.section {
+    margin-top: 20px;
+}
